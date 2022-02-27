@@ -49,3 +49,19 @@ Imprime a árvore com vértice inicial 1
 ```console
 ./prim -s -i 1 < input.txt
 ```
+
+### kruskal
+```console
+cd kruskal
+```
+```console
+make kruskal
+```
+Calcula o custo da AGM
+```console
+./kruskal < input.txt
+```
+Imprime a árvore
+```console
+./kruskal -s < input.txt
+```
